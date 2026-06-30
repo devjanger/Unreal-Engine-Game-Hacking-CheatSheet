@@ -197,7 +197,7 @@ https://github.com/Do0ks/MemRE
 치트테이블(.CT) 자체에 Lua 스크립트를 심어서, 테이블을 열면 자동으로 포인터 체인을 따라가고 값을 표시/수정하는 GUI 폼을 만들 수 있다.
 ``` lua
 luafunction getPlayerHP()
-    local base = getAddress("게임exe이름.exe")
+    local base = getAddress("Game-Win64-Shipping.exe")
     local gworld = readPointer(base + 0x90DD130)
     local gamestate = readPointer(gworld + 0x158)
     local playerArray = readPointer(gamestate + 0x2A8)
