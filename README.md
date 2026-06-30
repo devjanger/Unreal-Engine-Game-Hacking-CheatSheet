@@ -50,7 +50,13 @@ Get-ChildItem *.pak | ForEach-Object {
 
 [Dumper-7](https://github.com/Encryqed/Dumper-7) — 클래스/구조체/함수/오프셋 전체를 C++ SDK로 덤프.
 
-### Injection
+### DLL Injection
+
+#### 인젝션 도구
+- 치트엔진 > Memory View > Tools > Injection DLL
+- https://github.com/Do0ks/InjectorV2
+- https://github.com/DarthTon/Xenos
+
 ```
 1. DLL Injector 준비 (Xenos 등)
 2. Process → 대상 게임 프로세스 선택
