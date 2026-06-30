@@ -72,8 +72,8 @@ C:\Dumper-7\<UE버전>-<게임이름>\
 
 ## 3. Offset Hunting (GSpots, SDK grep)
 
-### GSpots (자동 탐색)
-게임 실행 중 `GSpots.exe` 실행 → GWorld / GNames / GObjects 오프셋 자동 출력.
+### GSpots (GOffsets 자동 탐색 도구 https://github.com/Do0ks/GSpots)
+게임 실행 중 게임 파일을 `GSpots.exe`으로 드래그 앤 드랍 → GWorld / GNames / GObjects 오프셋 자동 출력. (오탐 주의)
 
 ### grep으로 SDK에서 멤버/함수 찾기
 ```powershell
