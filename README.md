@@ -171,6 +171,12 @@ write_float(movement + 0x1F8, 3000.0)  # MaxWalkSpeed 변경
 
 ## 6. Memory Editing (Cheat Engine)
 
+### MemRE - 언리얼 엔진 게임 전용 메모리 편집기(치트엔진)
+https://github.com/Do0ks/MemRE
+
+<img width="1563" height="900" alt="image" src="https://github.com/user-attachments/assets/30305c24-718e-4bbc-ae8a-9f5e18706bc4" />
+
+
 ### Pointer Scan으로 동적 오프셋 찾기
 게임 재시작마다 주소가 바뀌어서 오프셋 체인을 매번 다시 찾아야 할 때, Cheat Engine의 Pointer Scan 기능을 쓰면 자동화할 수 있다.
 1. 현재 값 주소를 일반 스캔으로 찾기 (예: HP, 좌표값)
